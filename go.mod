@@ -16,7 +16,7 @@ require (
 	github.com/blizzy78/varnamelen v0.5.0
 	github.com/bombsimon/wsl/v3 v3.3.0
 	github.com/breml/bidichk v0.2.1
-	github.com/breml/errchkjson v0.2.0
+	github.com/breml/errchkjson v0.3.0
 	github.com/butuzov/ireturn v0.1.1
 	github.com/charithe/durationcheck v0.0.9
 	github.com/daixiang0/gci v0.2.9
@@ -93,7 +93,7 @@ require (
 	github.com/valyala/quicktemplate v1.7.0
 	github.com/yeya24/promlinter v0.1.0
 	gitlab.com/bosi/decorder v0.2.0
-	golang.org/x/tools v0.1.8
+	golang.org/x/tools v0.1.10
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.2.2
 	mvdan.cc/gofumpt v0.2.1
