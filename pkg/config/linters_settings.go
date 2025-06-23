@@ -200,6 +200,15 @@ var defaultLintersSettings = LintersSettings{
 		ErrorVariableNames:               []string{"err"},
 		ForceExclusiveShortDeclarations:  false,
 	},
+	WSLv5: WSLv5Settings{
+		AllowFirstInBlock: true,
+		AllowWholeBlock:   false,
+		BranchMaxLines:    2,
+		CaseMaxLines:      0,
+		Default:           "",
+		Enable:            []string{},
+		Disable:           []string{},
+	},
 }
 
 type LintersSettings struct {
@@ -1012,7 +1021,6 @@ type WSLv4Settings struct {
 }
 
 type WSLv5Settings struct {
-	IncludeGenerated  bool     `mapstructure:"include-generated"`
 	AllowFirstInBlock bool     `mapstructure:"allow-first-in-block"`
 	AllowWholeBlock   bool     `mapstructure:"allow-whole-block"`
 	BranchMaxLines    int      `mapstructure:"branch-max-lines"`
